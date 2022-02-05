@@ -1,0 +1,37 @@
+.site-container{
+    height: 1000px;
+    width: 100%;
+}
+
+.person{
+    text-align: center;
+    border: 1px solid rgb(197, 195, 195);
+}
+
+.person h3{
+    color: gray;
+}
+
+.customer-info, .order-info, .product-list{
+    padding-left: 50px;
+    border: 1px solid rgb(197, 195, 195);
+    margin-top: 30px;
+}
+
+
+.col{
+    display: inline-block;
+    width: 33%;
+}
+
+img, .productDescription{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    margin: 20px 40px 20px 0px;
+}
