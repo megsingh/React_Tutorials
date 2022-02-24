@@ -14,7 +14,25 @@
     <div id="root"></div>
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+ var container = (
+   <div className = "container">
+    <div className = "row1"> 
+      <div className = "col"></div>
+      <div className = "col"></div>
+      </div> 
+
+    <div className = "row2"> 
+      <div className = "col"></div>
+      </div> 
+      
+    <div className = "row3"> 
+      <div className = "col"></div>
+      <div className = "col"></div>
+      <div className = "col"></div>
+      </div> 
+    </div>
+ )
+ ReactDOM.render(container,document.getElementById('root'));
 
 </script>
 <!--
