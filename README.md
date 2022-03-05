@@ -1,4 +1,4 @@
-# React-Assignments
+# React-Tutorials
 
 About the Code
 -----------------
